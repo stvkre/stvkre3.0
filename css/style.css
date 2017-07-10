@@ -1,0 +1,9 @@
+.image-headers {
+  background-image: url('../img/glenn-carstens-peters-204767.jpg');
+  background-size: cover;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
