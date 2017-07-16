@@ -61,3 +61,29 @@ body {
 #nav ul li:hover {
   background: white;
 }
+
+#body_text ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 40px;
+  color: #ffffff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+}
+
+#body_text ul {
+  text-align: center;
+  padding-top: 300px;
+}
+
+.about {
+  height: 200px;
+}
+
+#me {
+  text-align: center;
+}
+
+#me h3 {
+  font-size: 50px;
+}
