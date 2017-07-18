@@ -114,10 +114,18 @@ body {
   padding-top: 100px;
 }
 
-footer {
+.container {
   height: 80px;
+  padding: 5px;
 }
 
-footer p {
-  text-align: center;
+#name {
+  float: left;
+  padding-left: 320px;
+  padding-top: 5px;
+}
+
+#social {
+  float: right;
+  padding-right: 320px;
 }
