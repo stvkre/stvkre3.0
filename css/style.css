@@ -163,7 +163,7 @@ table td {
 
 table img:hover {
   transform: scale(1.1);
-  transition: all .7s ease-in;
+  transition: all .5s ease-in;
   filter: grayscale(1);
 }
 
