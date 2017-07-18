@@ -113,3 +113,11 @@ body {
   color: #fff;
   padding-top: 100px;
 }
+
+footer {
+  height: 80px;
+}
+
+footer p {
+  text-align: center;
+}
