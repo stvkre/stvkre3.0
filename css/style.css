@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-  background-image: url('../img/glenn-carstens-peters-204767.jpg');
+  background-image: url('../img/jesus-kiteque-224069.jpg');
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -73,7 +73,8 @@ body {
 
 #body_text ul {
   text-align: center;
-  padding-top: 300px;
+  padding-top: 270px;
+  text-decoration: underline;
 }
 
 .about {
@@ -100,4 +101,15 @@ body {
   align-items: center;
   padding: 55px;
   text-align: center;
+}
+
+.projects {
+  height: 200px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.projects p {
+  color: #fff;
+  padding-top: 100px;
 }
