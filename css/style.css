@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-  background-image: url('../img/jesus-kiteque-224069.jpg');
+  background-image: url('../assets/img/jesus-kiteque-224069.jpg');
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -87,45 +87,88 @@ body {
 
 #me h3 {
   font-size: 60px;
-  font-family: 'Oswald', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #me p {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
 }
 
 #col-mid-4 {
   display: inline-block;
   align-items: center;
-  padding: 55px;
+  padding: 30px;
   text-align: center;
+}
+
+#col-mid-4 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
 }
 
 .projects {
-  height: 200px;
-  background-color: #000000;
-  text-align: center;
-}
-
-.projects p {
-  color: #fff;
   padding-top: 100px;
+  height: 600px;
+  background: rgba(255,255,255,0.5);
+  text-align: center;
+
 }
 
-.container {
-  height: 80px;
+
+
+.projects h3 {
+  padding-top: 10px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+}
+
+.end {
+  height: 60px;
   padding: 5px;
+  background-color: rgba(0,0,0, 0.1);
 }
 
 #name {
   float: left;
-  padding-left: 320px;
-  padding-top: 5px;
+  padding-left: 100px;
+  padding-top: 22px;
+  font-family: 'Anaheim', sans-serif;
+  display: inline-block;
 }
 
 #social {
   float: right;
-  padding-right: 320px;
+  padding-right: 200px;
+  padding-top: 15px;
+
+}
+
+#social img {
+  padding-left: 10px;
+}
+
+table img {
+  width: 350px;
+  height: 190px;
+  overflow: hidden;
+}
+
+table td {
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+table img:hover {
+  transform: scale(1.1);
+  transition: all .7s ease-in;
+  filter: grayscale(1);
+}
+
+table td p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-style: oblique;
 }
