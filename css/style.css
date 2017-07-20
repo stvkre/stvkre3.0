@@ -73,7 +73,7 @@ body {
 
 #body_text ul {
   text-align: center;
-  padding-top: 270px;
+  padding-top: 260px;
   text-decoration: underline;
 }
 
@@ -109,7 +109,7 @@ body {
   font-size: 18px;
 }
 
-.projects {
+#projects {
   padding-top: 100px;
   height: 600px;
   background: rgba(255,255,255,0.5);
@@ -119,13 +119,13 @@ body {
 
 
 
-.projects h3 {
+#projects h3 {
   padding-top: 10px;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 40px;
 }
 
-.end {
+#end {
   height: 60px;
   padding: 5px;
   background-color: rgba(0,0,0, 0.1);
@@ -157,18 +157,18 @@ table img {
 }
 
 table td {
-  padding-left: 80px;
+  padding-left: 65px;
   padding-top: 20px;
 }
 
 table img:hover {
   transform: scale(1.1);
-  transition: all .5s ease-in;
+  transition: all .4s ease-in;
   filter: grayscale(1);
 }
 
 table td p {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 21px;
   font-style: oblique;
 }
