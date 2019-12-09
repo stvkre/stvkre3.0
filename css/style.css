@@ -82,6 +82,7 @@ body {
   padding-top: 100px;
   padding-right: 10px;
   padding-left: 100px;
+  padding-bottom: 50px;
   height: 600px;
   background: rgba(255,255,255,0.5);
   display: flex;
@@ -97,6 +98,10 @@ body {
   font-family: 'Julius Sans One', sans-serif;
   font-size: 60px;
   
+}
+
+#id{
+  padding-top:300px;
 }
 
 #end {
@@ -144,8 +149,8 @@ table td {
 }
 
 table img:hover {
-  transform: scale(1.1);
-  transition: all .4s ease-in;
+  transform: scale(0.9);
+  transition: all .7s ease-in;
   filter: grayscale(1);
 }
 
@@ -154,6 +159,11 @@ table td p {
   font-size: 21px;
   font-style: oblique;
   padding-top: 20px;
+}
+
+#quote{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 footer {
