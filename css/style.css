@@ -5,9 +5,10 @@ body {
 
 
 #main {
-  background-image: url('../assets/img/jesus-kiteque-224069.jpg');
+  background-image: url('../assets/img/desk.png');
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
   position: relative;
   top: 0;
   bottom: 0;
@@ -102,7 +103,7 @@ body {
   display: inline-block;
   align-items: center;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 100px;
   text-align: center;
 }
 
@@ -113,7 +114,8 @@ body {
 
 #projects {
   padding-top: 100px;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
+  padding-left: 100px;
   height: 600px;
   background: rgba(255,255,255,0.5);
 
