@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 100px;
   padding: 0;
 }
 
@@ -24,44 +24,6 @@ body {
   height: 100%;
   width: 100%;
   z-index: -5;
-}
-
-#nav {
-  background: rgba(0,0,0,0.5);
-  width: 100%;
-  height: 60px;
-  line-height: 70px;
-  color: #ffffff;
-  font-family: 'Julius Sans One', sans-serif;
-  position: fixed;
-
-}
-
-#nav h1 {
-  font-weight: 500;
-  float: left;
-  padding-left: 20px;
-  font-size: 30px;
-}
-
-#nav ul {
-  float:right;
-  margin-right: 30px;
-}
-
-#nav ul li {
-  list-style-type: none;
-  display: inline-block;
-}
-
-#nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  padding: 20px;
-}
-
-#nav ul li:hover {
-  background: white;
 }
 
 #body_text ul li {
@@ -90,7 +52,7 @@ body {
 #me h3 {
   font-size: 60px;
  font-family: 'Josefin Sans', sans-serif;
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -112,22 +74,29 @@ body {
   font-size: 16px;
 }
 
+#story{
+  padding-bottom: 500px;
+}
+
 #projects {
   padding-top: 100px;
-  /*padding-right: 10px;*/
+  padding-right: 10px;
   padding-left: 100px;
   height: 600px;
   background: rgba(255,255,255,0.5);
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 
-
 #projects h3 {
   padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 500px;
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 40px;
-  text-align: center;
+  font-size: 60px;
+  
 }
 
 #end {
@@ -155,15 +124,23 @@ body {
   padding-left: 10px;
 }
 
+table{
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
 table img {
-  width: 350px;
-  height: 190px;
+  width: 600px;
+  height: 350px;
   overflow: hidden;
 }
 
 table td {
-  padding-left: 65px;
-  padding-top: 20px;
+  padding top: 50px;
+  padding-right: 50px;
+  padding-left: 10px;
+  
+ 
 }
 
 table img:hover {
@@ -176,6 +153,11 @@ table td p {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 21px;
   font-style: oblique;
+  padding-top: 20px;
+}
+
+footer {
+  padding-top: 500px;
 }
 
 /* Smartphones (landscape) ----------- */
